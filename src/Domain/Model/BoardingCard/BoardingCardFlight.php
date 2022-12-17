@@ -48,7 +48,7 @@ class BoardingCardFlight extends BoardingCard
     {
         $sentence = "From {$this->getFrom()}, ";
         $sentence .= "take {$this->getType()} ";
-        $sentence .= $this->getGate() ? ", {$this->getGate()}, " : '';
+        $sentence .= $this->getGate() ? ", gate {$this->getGate()}, " : '';
         $sentence .= "to {$this->getTo()}. ";
         $sentence .= $this->getSeatNumber() ? "Seat in {$this->getSeatNumber()}. " : '';
         foreach ($this->getAdditionalInfos() as $additionalInfo) {
