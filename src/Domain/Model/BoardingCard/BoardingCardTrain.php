@@ -16,7 +16,7 @@ class BoardingCardTrain extends BoardingCard
     public function __construct(array $data)
     {
         parent::__construct($data);
-        $this->platform = $data[self::KEY_PLATFORM] ?? '';
+        $this->platform = $data[self::KEY_PLATFORM] ?? null;
     }
 
     /**

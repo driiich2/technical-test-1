@@ -15,7 +15,7 @@ class BoardingCardFlight extends BoardingCard
     public function __construct(array $data)
     {
         parent::__construct($data);
-        $this->gate = $data[self::KEY_GATE] ?? '';
+        $this->gate = $data[self::KEY_GATE] ?? null;
     }
 
     /**
