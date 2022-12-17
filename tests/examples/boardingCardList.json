@@ -1,0 +1,66 @@
+[
+  {
+    "type": "train",
+    "name": "Jean Dupond",
+    "trip_number": "TRAIN56755",
+    "from": "Tokyo",
+    "to": "Osaka",
+    "departure_time": "1671141731",
+    "arrival_time": "1671145750",
+    "platform": "6",
+    "seat_number": "35",
+    "additional_infos": [
+      "Small baggages only"
+    ]
+  },
+  {
+    "type": "train",
+    "name": "Jane Smith",
+    "trip_number": "TRAIN5678",
+    "from": "London",
+    "to": "Paris",
+    "departure_time": "1671141731",
+    "arrival_time": "1671145750",
+    "platform": "3",
+    "seat_number": "27C"
+  },
+  {
+    "type": "flight",
+    "name": "John Doe",
+    "trip_number": "FLIGHT1234",
+    "from": "New York",
+    "to": "London",
+    "departure_time": "1671141731",
+    "arrival_time": "1671145731",
+    "gate": "A12",
+    "seat_number": "12A",
+    "additional_infos": [
+      "Baggage will we automatically transferred from your last leg",
+      "Be an hour early for the flight"
+    ]
+  },
+  {
+    "type": "flight",
+    "name": "James Bond",
+    "trip_number": "FLIGHT123455",
+    "from": "Lyon",
+    "to": "Tokyo",
+    "departure_time": "1671141731",
+    "arrival_time": "1671145731",
+    "gate": "B10",
+    "seat_number": "13A",
+    "additional_infos": [
+      "No Baggage"
+    ]
+  },
+  {
+    "type": "bus",
+    "name": "Robert Johnson",
+    "trip_number": "BUS9101",
+    "from": "Paris",
+    "to": "Lyon",
+    "departure_time": "1671141731",
+    "arrival_time": "1671145736",
+    "seat_number": "5B"
+  }
+]
